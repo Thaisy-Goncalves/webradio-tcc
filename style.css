@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#inicio {
+    background-color: #ff8181;
+    margin-top: -80px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#programas {
+    background-color: #6759eb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
