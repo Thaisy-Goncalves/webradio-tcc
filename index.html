@@ -16,34 +16,38 @@
     <!-- Navbar -->
     <nav class="navbar navbar-dark bg-transparent fixed-top navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">Rádio IFRN-SPP</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+
+        <a class="navbar-brand fs-4" href="#"><img width="60px" height="60px" src="img/logo.png" alt=""></a>
+
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none border-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li>
+          <div class="offcanvas-body  d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
                   <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link" href="#programas">Programas</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <a class="nav-link" href="#pedidos">Pedidos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="login.html">login</a>
-                </li>
               </li>
             </ul>
+            <div class="d-flex justify-content-center align-items-center gap-3 flex-lg-row">
+              <a href="cadastro.html" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #e02c92;">Cadastrar</a>      
+              <a href="login.html" class="text-white">Login</a>
+  
+            </div>
           </div>
         </div>
       </div>
@@ -64,7 +68,6 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1>INicio</h1>
             </div>
           </div>
         </div>

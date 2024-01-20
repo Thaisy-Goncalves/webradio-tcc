@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+
+}
+
+
+
+
+
 #inicio {
-    background-color: #d781ff;
+    background-color: #0e0431;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -13,11 +25,12 @@
 }
 
 #playbar {
-    background-color: #161616;
+    background-color: #0a0a0a;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 
