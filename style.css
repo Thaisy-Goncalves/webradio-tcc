@@ -5,24 +5,34 @@
 }
 
 #inicio {
-    background-color: #ff8181;
-    height: 100vh;
+    background-color: #d781ff;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#programas {
-    background-color: #6759eb;
-    height: 100vh;
+#playbar {
+    background-color: #161616;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+#programas {
+    background-color: #6759eb;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
 }
 
 #calendario {
     background-color: #59e6eb;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +40,7 @@
 
 #sobre {
     background-color: #59eb60;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,8 +48,9 @@
 
 #pedidos {
     background-color: #ddeb59;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
 }
