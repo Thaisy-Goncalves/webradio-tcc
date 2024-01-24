@@ -261,6 +261,11 @@ a {
     text-align: right;
 }
 
+#progress {
+    display: block;
+    width: var(--progress, 0%)
+}
+
 .bar {
     --space: -4px;
     background-color: #6347a724;

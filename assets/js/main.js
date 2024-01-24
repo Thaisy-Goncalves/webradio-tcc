@@ -62,7 +62,7 @@ player.onpause = function () {
 
 player.ontimeupdate = function () {
     let ct = player.currentTime;
-    current.innerHtml = timeFormat(ct);
+    current.innerHTML = timeFormat(ct);
     
     let duration = player.duration;
     prog = Math.floor((ct*100)/duration);
