@@ -2,7 +2,7 @@
 
 /*root*/
 :root {
-    --header-height: 3rem;
+    --header-height: 3.5rem;
     --nav-width: 68px;
 
     /*Colors*/
@@ -190,6 +190,29 @@ a {
     .body-pd {
         padding-left: calc(var(--nav-width) + 188px);
     }
+}
+
+/*========== PLAYER ==========*/
+*, .playbody {
+    letter-spacing: 1px;
+    transition: all 0.35s linear;
+}
+
+.playbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    --bg: #613594;
+    background-color: var(--bg);
+    color: white;
+}
+
+.player {
+    width: 640px;
+    background-color: var(--bg);
+    display: grid;  
+    grid-template-columns: 48px 1fr 48px;
 }
 
 /*========== RESTO DAS PAGINAS AI QUE ÓDIO ==========*/
