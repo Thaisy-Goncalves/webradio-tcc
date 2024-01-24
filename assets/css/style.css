@@ -192,7 +192,7 @@ a {
     }
 }
 
-/*========== PLAYER ==========*/
+/*========== PLAYER ==========
 *, .playbody {
     letter-spacing: 1px;
     transition: all 0.35s linear;
@@ -213,7 +213,67 @@ a {
     background-color: var(--bg);
     display: grid;  
     grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
 }
+*/
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    color: white;
+    position: relative;
+}
+
+.player {
+    display: grid;  
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+
+#playbtn {
+    font-size: 3em;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    cursor: pointer;
+}
+
+#playbtn:hover {
+    -webkit-text-fill-color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#current {
+    text-align: right;
+}
+
+.bar {
+    --space: -4px;
+    background-color: #6347a724;
+    overflow: hidden;
+    left: var(--space);
+    right: var(--space);
+    bottom: var(--space);
+    top: var(--space);
+    position: absolute;
+    border-radius: 64px;
+    z-index: -2;
+}
+
 
 /*========== RESTO DAS PAGINAS AI QUE ÓDIO ==========*/
 
