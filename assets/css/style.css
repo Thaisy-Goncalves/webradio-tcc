@@ -283,9 +283,20 @@ a {
 /*========== RESTO DAS PAGINAS AI QUE ÓDIO ==========*/
 
 #inicio {
+    height: 100vh;
     background-color: var(--bgbody-color);
     color: var(--white-color);
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 10px;
+
+    /*overflow-y: scroll;*/
+
+}
+
+#programacao {
+    background-color: var(--bgbody-color);
+    color: var(--white-color);
+    height: 100vh;
+
 }
